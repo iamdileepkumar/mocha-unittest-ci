@@ -17,9 +17,7 @@ blocks:
             - cache store
   - name: Test
     task:
-      env_vars:
-        - name: NODE_ENV
-          value: test
+      env_vars: []
       prologue:
         commands:
           - checkout
